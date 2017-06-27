@@ -33,13 +33,16 @@ namespace GetImagesightImages
 
         private void getImgs_Click(object sender, EventArgs e)
         {
+            
             PicManager picManager = new PicManager(user, place);
             if (agree.Checked)
             {
                 try
                 {
                     picManager.GetImages();
-                    MessageBox.Show($"Done, Your pictures are in {place}");
+                    DoneMessage done = new DoneMessage(place);
+                    done.Show();
+                    
                 }
                 catch (Exception ex)
                 {

@@ -12,7 +12,8 @@ C:\Users\Karo\Source\Repos\spotlightImages\spotlightImages\bin\Debug\spotlightIm
 C:\Users\Karo\Source\Repos\spotlightImages\spotlightImages\bin\Debug\spotlightImages.pdb
 C:\Users\Karo\Source\Repos\spotlightImages\spotlightImages\obj\Debug\spotlightImages.csprojResolveAssemblyReference.cache
 C:\Users\Karo\Source\Repos\spotlightImages\spotlightImages\obj\Debug\GetImagesightImages.form.resources
-C:\Users\Karo\Source\Repos\spotlightImages\spotlightImages\obj\Debug\spotlightImages.Properties.Resources.resources
 C:\Users\Karo\Source\Repos\spotlightImages\spotlightImages\obj\Debug\spotlightImages.csproj.GenerateResource.Cache
 C:\Users\Karo\Source\Repos\spotlightImages\spotlightImages\obj\Debug\spotlightImages.exe
 C:\Users\Karo\Source\Repos\spotlightImages\spotlightImages\obj\Debug\spotlightImages.pdb
+C:\Users\Karo\Source\Repos\spotlightImages\spotlightImages\obj\Debug\GetImagesightImages.DoneMessage.resources
+C:\Users\Karo\Source\Repos\spotlightImages\spotlightImages\obj\Debug\GetImagesightImages.Properties.Resources.resources
