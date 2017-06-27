@@ -1,0 +1,8 @@
+C:\Users\mrube\Downloads\c#examples\spotlightImages\spotlightImages\bin\Release\spotlightImages.exe.config
+C:\Users\mrube\Downloads\c#examples\spotlightImages\spotlightImages\bin\Release\spotlightImages.exe
+C:\Users\mrube\Downloads\c#examples\spotlightImages\spotlightImages\bin\Release\spotlightImages.pdb
+C:\Users\mrube\Downloads\c#examples\spotlightImages\spotlightImages\obj\Release\spotlightImages.form.resources
+C:\Users\mrube\Downloads\c#examples\spotlightImages\spotlightImages\obj\Release\spotlightImages.Properties.Resources.resources
+C:\Users\mrube\Downloads\c#examples\spotlightImages\spotlightImages\obj\Release\spotlightImages.csproj.GenerateResource.Cache
+C:\Users\mrube\Downloads\c#examples\spotlightImages\spotlightImages\obj\Release\spotlightImages.exe
+C:\Users\mrube\Downloads\c#examples\spotlightImages\spotlightImages\obj\Release\spotlightImages.pdb
