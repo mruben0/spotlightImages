@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
+using System.IO;
 
 
 namespace GetImagesightImages
@@ -32,9 +33,9 @@ namespace GetImagesightImages
 
         private void getImgs_Click(object sender, EventArgs e)
         {
+            PicManager picManager = new PicManager(user, place);
             if (agree.Checked)
             {
-                PicManager picManager = new PicManager(user, place);
                 try
                 {
                     picManager.GetImages();
@@ -43,9 +44,12 @@ namespace GetImagesightImages
                 catch (Exception ex)
                 {
 
-                    MessageBox.Show(ex.Message, ex.StackTrace);
-                    
+                    MessageBox.Show(ex.Message);
                 }
+                
+                
+                
+              
           
             }
             else MessageBox.Show("You should be agree");   
