@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using System.Diagnostics;
 
 
-namespace spotlightImages
+namespace GetImagesightImages
 {
     public partial class form : Form
     {
@@ -34,10 +34,10 @@ namespace spotlightImages
         {
             if (agree.Checked)
             {
-                GetPic get = new GetPic(user, place);
+                PicManager picManager = new PicManager(user, place);
                 try
                 {
-                    get.spotL();
+                    picManager.GetImages();
                     MessageBox.Show($"Done, Your pictures are in {place}");
                 }
                 catch (Exception ex)
@@ -79,7 +79,7 @@ namespace spotlightImages
 
         private void conditions_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Error: Just joking, there aren't any");
+            MessageBox.Show("Just joking, there aren't any, Ha Ha Ha.");
         }
 
         private void footer_Click(object sender, EventArgs e)

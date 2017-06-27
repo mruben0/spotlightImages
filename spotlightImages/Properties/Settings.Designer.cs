@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace spotlightImages.Properties
+namespace GetImagesightImages.Properties
 {
 
 

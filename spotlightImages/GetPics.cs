@@ -5,38 +5,36 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-namespace spotlightImages
+namespace GetImagesightImages
 {
-    class GetPic
+    class PicManager
     {
 
         string username;
         string place;
-        public GetPic(string user, string DestPlace)
+        public PicManager(string user, string DestPlace)
         {
             username = user;
             place = DestPlace;
         }
-        public void spotL()
+        public void GetImages()
         {
 
-            string w = @"C:\Users\" + username + @"\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\Assets";
-            string[] p = Directory.GetFiles(w, "*.*");
+            string spotPath = @"C:\Users\" + username + @"\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\Assets";
+            string[] picNames = Directory.GetFiles(spotPath, "*.*");
             if (!Directory.Exists(place))
             {
                 Directory.CreateDirectory(place);
             }
 
-            if (!Directory.Exists(@"C:\Users\" + username + @"\Desktop\WindowsPics"))
-                Directory.CreateDirectory(@"C:\Users\" + username + @"\Desktop\WindowsPics");
-            if (p.Length > 0)
+          if (picNames.Length > 0)
             {
-                foreach (var pic in p)
+                foreach (var pic in picNames)
                 {
                     FileInfo f = new FileInfo(pic);
                     if (f.Length / 1024 > 512)
                     {
-                        string picName = pic.Substring(w.Length + 1) + ".jpg";
+                        string picName = pic.Substring(spotPath.Length + 1) + ".jpg";
 
                         string dest = Path.Combine(place, picName);
 

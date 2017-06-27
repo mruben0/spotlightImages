@@ -1,4 +1,4 @@
-﻿namespace spotlightImages
+﻿namespace GetImagesightImages
 {
     partial class form
     {
@@ -116,7 +116,7 @@
             this.Controls.Add(this.getImgs);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "form";
-            this.Text = "Spotlight Images";
+            this.Text = "GetImagesight Images";
             this.ResumeLayout(false);
             this.PerformLayout();
 
